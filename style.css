@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+body {
+    background-color: #ff3cac;
+    background-image: linear-gradient(
+        225deg,
+        #ff3cac 0%,
+        #784ba0 50%,
+        #2b86c5 100%
+    );
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+h1 {
+    font-size: 150pt;
+    color: #ffffffad;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+    margin-bottom: 0;
+    padding: 0;
+}
+h2 {
+    font-size: 25pt;
+    color: #ffffff67;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 0;
+    padding: 0;
+}
+.main-rows {
+    float: left;
+    text-align: center;
+}
+.main-content,
+.buttons {
+    width: 800px;
+
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+    text-align: center;
+}
+.button {
+    margin: 10px;
+    display: inline-block;
+    padding: 30px;
+    border: 0;
+    width: 100px;
+    height: 100px;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(30px);
+    color: rgba(255, 255, 255, 0.8);
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 25pt;
+    border-radius: 15rem;
+}
+.playPause {
+}
+.button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+.restart {
+}
